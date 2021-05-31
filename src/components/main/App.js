@@ -10,7 +10,7 @@ function App() {
   const { userData } = useContext(LoginContext)
   // const URL = "https://ariyeb-photos-storage.s3-eu-west-1.amazonaws.com/";
   // const URL = "https://drop-box-storage.s3-eu-west-1.amazonaws.com/";
-  const URL = "http://localhost:3030/get-image"
+  const URL = "http://Dropboxserver-env.eba-38vxkbbt.eu-west-1.elasticbeanstalk.com/get-image"
   const [images, setImages] = useState([]);
   const imageTypes = ['jpeg', 'png', 'jfif', 'jpg']
 
