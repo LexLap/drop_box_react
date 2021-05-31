@@ -1,0 +1,68 @@
+// .chatroom__main {
+//   width: 100%;
+//   height: calc(100vh -4rem);
+//   // display: grid;
+//   // grid-template-rows: auto 4rem;
+
+// }
+
+// // .chatroom__main {
+// //   margin: auto;
+// //   width: 80vw;
+// //   height: 80vh;
+// //   justify-content: center;
+  
+
+//   // background-image: URL()
+// // }
+// // .chatroom__main_tile{
+// .chatroom__main{
+//   position: absolute;
+//   left: 20vw;
+//   top: 5vh;
+//   width: 45vw;
+//   height: 45vw;
+//   // z-index: 1;
+//   display: grid;
+//   grid-template-rows: repeat(8, 12.5%);
+//   grid-template-columns: repeat(8, 12.5%);
+//   grid-template-areas:   
+//       "A1 A2 A3 A4 A5 A6 A7 A8" 
+//       "B1 B2 B3 B4 B5 B6 B7 B8" 
+//       "C1 C2 C3 C4 C5 C6 C7 C8" 
+//       "D1 D2 D3 D4 D5 D6 D7 D8" 
+//       "Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8" 
+//       "F1 F2 F3 F4 F5 F6 F7 F8" 
+//       "G1 G2 G3 G4 G5 G6 G7 G8" 
+//       "H1 H2 H3 H4 H5 H6 H7 H8" ;
+// }
+// .checker-row {
+//   padding: 0;
+//   margin: 0;
+//   list-style: none;
+//   display: -webkit-box;
+//   display: -moz-box;
+//   display: -ms-flexbox;
+//   display: -webkit-flex;
+//   display: flex;
+//   -webkit-flex-flow: row;
+//   justify-content: center;
+// }
+// .board-square {
+//   margin: 0px;
+//   padding: 0px;
+//   color: white;
+//   font-weight: bold;
+//   font-size: 1em;
+//   text-align: center;
+//   flex: 1 0 auto;
+//   height: auto
+//   // z-index: 1;
+// }
+// .black-square {
+//   background-color: #606070;
+// }
+// .white-square {
+//   background-color: #eeeee7;
+// }
+
