@@ -3,7 +3,7 @@ import Axios from 'axios'
 export const subscribeToSite = async (email, password) => {
     try {
         const res = await Axios.post(
-            'http://localhost:3030/subscribe',
+            'http://Dropboxserver-env.eba-38vxkbbt.eu-west-1.elasticbeanstalk.com/subscribe',
             {email, password, returnSecureToken: true}
         )
 
@@ -22,7 +22,7 @@ export const subscribeToSite = async (email, password) => {
 export const loginToSite = async (email, password) => {
     try {
         const res =  await Axios.post(
-            'http://localhost:3030/login',
+            'http://Dropboxserver-env.eba-38vxkbbt.eu-west-1.elasticbeanstalk.com/login',
             { email, password, returnSecureToken: true }
         )
 
@@ -41,7 +41,7 @@ export const logOut = async (token) => {
     console.log(token)
     try {
         await Axios.post(
-            'http://localhost:3030/logout',
+            'http://Dropboxserver-env.eba-38vxkbbt.eu-west-1.elasticbeanstalk.com/logout',
             {token} 
         )
 
